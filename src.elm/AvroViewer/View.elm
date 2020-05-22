@@ -52,7 +52,7 @@ uploadView model =
                 , id fileInputID
                 , class "f7-ns"
                 , placeholder "Select AVRO or JSON files"
-                , Html.Attributes.accept ".avro,.json"
+                , Html.Attributes.accept ".avro,.json,.avsc"
                 , on "change" (Decoder.succeed FileSelected)
                 , multiple True
                 ]

@@ -100,7 +100,8 @@
 
             // The app supports both raw JSON and binary Avro,
             // check the file name to see if we even need to decode
-            if(file.name.indexOf(".json") != -1){
+            if(file.name.indexOf(".json") != -1 ||
+                file.name.indexOf(".avsc") != -1){
                 fileType = "json"
             }
             else if (file.name.indexOf(".avro") != -1){

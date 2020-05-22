@@ -7,3 +7,4 @@ bower_components/
 .DS_Store
 tests/elm-stuff/
 npm-debug.log
+.idea

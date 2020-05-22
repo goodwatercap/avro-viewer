@@ -12870,7 +12870,7 @@ var _zymeworks$avro_viewer$AvroViewer_View$uploadView = function (model) {
 														_0: _elm_lang$html$Html_Attributes$placeholder('Select AVRO or JSON files'),
 														_1: {
 															ctor: '::',
-															_0: _elm_lang$html$Html_Attributes$accept('.avro,.json'),
+															_0: _elm_lang$html$Html_Attributes$accept('.avro,.json,.avsc'),
 															_1: {
 																ctor: '::',
 																_0: A2(
